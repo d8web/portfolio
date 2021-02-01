@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    a.btn {
+        border-color: #fff;
+    }
     /* Navbar */
     .navbar .desktop {
         position: absolute;
@@ -33,7 +36,7 @@
     .btn-menu-open,
     .btn-menu-close {
         font-size: 25px;
-        color: #21272f;
+        color: #fff;
         cursor: pointer;
     }
 
@@ -60,7 +63,7 @@
     }
 
     .hero-box-img img {
-        width: 80%;
+        width: 88%;
     }
 }
 

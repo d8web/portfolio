@@ -8,6 +8,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+    background-color: #21272f;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    border-color: #fff;
+    background-color: transparent;
+}
+
 a {
     text-decoration: none;
 }
@@ -68,7 +82,7 @@ header {
 }
 
 .desktop li a {
-    color: #21272f;
+    color: #fff;
 }
 
 .buttons-mobile {
@@ -89,6 +103,17 @@ header {
     height: calc(100% + 80px);
     background-color: #00b862;
     border-radius: 0% 0% 0% 100% / 0% 100% 0% 100%;
+}
+
+.hero-section::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 25%;
+    width: 60px;
+    height: 200px;
+    background-color: #00b862;
+    clip-path: polygon(0 2%, 0% 100%, 100% 54%);
 }
 
 .hero {
