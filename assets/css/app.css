@@ -9,17 +9,11 @@
 }
 
 .btn {
-    background-color: #21272f;
     color: #fff;
     padding: 6px 30px;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
-    border: 2px solid transparent;
-}
-
-.btn:hover {
-    border-color: #fff;
-    background-color: transparent;
+    border: 2px solid #fff;
 }
 
 a {
@@ -112,7 +106,8 @@ header {
     top: 25%;
     width: 60px;
     height: 200px;
-    background-color: #00b862;
+    background-color: rgba(0,184,98, 0.4);
+    z-index: -1;
     clip-path: polygon(0 2%, 0% 100%, 100% 54%);
 }
 
