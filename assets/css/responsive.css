@@ -51,9 +51,10 @@
     /* Hero-content-text */
     .hero-content-text h1 {
         font-size: 30px;
+        margin-bottom: 22px;
     }
     .hero-content-text p {
-        font-size: 15px;
+        font-size: 16px;
     }
     .hero-content-text button {
         padding: 8px 34px;
