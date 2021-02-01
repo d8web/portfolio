@@ -30,10 +30,15 @@
         display: block;
     }
 
-    .btn-menu {
-        font-size: 20px;
+    .btn-menu-open,
+    .btn-menu-close {
+        font-size: 25px;
         color: #21272f;
         cursor: pointer;
+    }
+
+    .btn-menu-close {
+        display: none;
     }
 
     /* Hero-content-text */
