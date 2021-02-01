@@ -116,8 +116,11 @@ header {
 }
 
 .hero-box-img {
-    flex: 1;
+    width: 50%;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+}
+
+.hero-box-img img {
+    max-width: 500px;
 }

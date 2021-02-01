@@ -54,9 +54,14 @@
 }
 
 
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 659px) {
     .hero {
         flex-direction: column-reverse;
+    }
+
+    .hero-section .hero .hero-box-img {
+        margin: 30px 0px 40px 0px;
+        width: 80%;
     }
 
     .hero-content-text {
