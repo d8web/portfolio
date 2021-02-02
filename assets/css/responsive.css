@@ -1,3 +1,9 @@
+@media screen and (max-width: 911px) {
+    .student-box {
+        width: calc(50% - 20px);
+    }
+}
+
 @media screen and (max-width: 768px) {
     a.btn {
         border-color: #fff;
@@ -55,7 +61,7 @@
     }
 
     /* Hero-content-text */
-    .hero-content-text h1 {
+    .hero .hero-content-text h1 {
         font-size: 30px;
         margin-bottom: 22px;
     }
@@ -76,6 +82,11 @@
         flex-direction: column-reverse;
         height: calc(100vh - 80px);
         justify-content: center;
+    }
+
+    .student-box {
+        margin: 10px;
+        width: 100%;
     }
 
     .hero-box-img img {
@@ -134,5 +145,17 @@
 
     .hero-box-img img {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .hero .hero-content-text h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .hero .hero-content-text h1 {
+        font-size: 24px;
     }
 }
