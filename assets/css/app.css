@@ -273,9 +273,10 @@ header {
 }
 
 .title-heading h2 {
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1.6px;
     color: #21272f;
+    font-size: 34px;
 }
 
 /*
@@ -403,10 +404,41 @@ header {
 
 .project-box {
     margin: 10px;
-    width: calc(25% - 20px);
+    width: calc(33.3% - 20px);
     display: flex;
-    height: 260px;
-    background-color: green;
+    height: 450px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.07);
+}
+
+.projects-content .project-box:first-child {
+    background-image: url('../images/project01.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 3s ease-in-out;
+}
+
+.projects-content .project-box:nth-child(2) {
+    background-image: url('../images/project02.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 3s ease-in-out;
+}
+
+.projects-content .project-box:last-child {
+    background-image: url('../images/project03.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 3s ease-in-out;
+}
+
+.projects-content .project-box:first-child:hover,
+.projects-content .project-box:nth-child(2):hover,
+.projects-content .project-box:last-child:hover {
+    background-position: bottom;
 }
