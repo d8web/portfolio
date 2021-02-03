@@ -518,3 +518,32 @@ header {
 .form-ilustration img {
     max-width: 500px;
 }
+
+/* Footer */
+
+footer {
+    padding: 30px 0px;
+    background-color: #00b862;
+}
+
+.box-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.copytext-footer {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer .box-footer .dark-text {
+    color: #21272f;
+}
+
+footer .box-footer .logo {
+    color: #fff;
+}
